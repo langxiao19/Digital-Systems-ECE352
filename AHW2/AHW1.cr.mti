@@ -1,0 +1,43 @@
+C:/ECE352/AHW1/RCA32.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW1\RCA32.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RCA32
+
+Top level modules:
+	RCA32
+
+} {} {}} C:/ECE352/AHW1/FA.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW1/FA.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} C:/ECE352/AHW1/RCA4_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW1/RCA4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RCA4_tb
+
+Top level modules:
+	RCA4_tb
+
+} {} {}} C:/ECE352/AHW1/RCA32_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW1/RCA32_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RCA32_tb
+
+Top level modules:
+	RCA32_tb
+
+} {} {}} C:/ECE352/AHW1/FA_tb.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW1\FA_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA_tb
+
+Top level modules:
+	FA_tb
+
+} {} {}} C:/ECE352/AHW1/RCA4.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW1/RCA4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RCA4
+
+Top level modules:
+	RCA4
+
+} {} {}}

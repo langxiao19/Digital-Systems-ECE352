@@ -1,0 +1,149 @@
+C:/ECE352/AHW2/mult3x2.sv {2 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\mult3x2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult3x2
+** Warning: C:\ECE352\AHW2\mult3x2.sv(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	mult3x2
+
+} {} {}} C:/ECE352/AHW2/bcd7seg.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\bcd7seg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bcd7seg
+
+Top level modules:
+	bcd7seg
+
+} {} {}} C:/ECE352/AHW2/RELU4_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/RELU4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU4_tb
+
+Top level modules:
+	RELU4_tb
+
+} {} {}} C:/ECE352/AHW2/add4_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/add4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4_tb
+
+Top level modules:
+	add4_tb
+
+} {} {}} C:/ECE352/AHW2/RELU3.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\RELU3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU3
+
+Top level modules:
+	RELU3
+
+} {} {}} C:/ECE352/AHW2/segAdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/segAdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segAdec
+
+Top level modules:
+	segAdec
+
+} {} {}} C:/ECE352/AHW2/add4.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\add4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4
+
+Top level modules:
+	add4
+
+} {} {}} C:/ECE352/AHW2/segBdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/segBdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segBdec
+
+Top level modules:
+	segBdec
+
+} {} {}} C:/ECE352/AHW2/mult2x2.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\mult2x2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult2x2
+
+Top level modules:
+	mult2x2
+
+} {} {}} C:/ECE352/AHW2/segCdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/segCdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segCdec
+
+Top level modules:
+	segCdec
+
+} {} {}} C:/ECE352/AHW2/segDdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/segDdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segDdec
+
+Top level modules:
+	segDdec
+
+} {} {}} C:/ECE352/AHW2/FA.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\FA.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} C:/ECE352/AHW2/segEdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/segEdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segEdec
+
+Top level modules:
+	segEdec
+
+} {} {}} C:/ECE352/AHW2/segFdec.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\segFdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segFdec
+
+Top level modules:
+	segFdec
+
+} {} {}} C:/ECE352/AHW2/AHW2.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/AHW2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AHW2
+
+Top level modules:
+	AHW2
+
+} {} {}} C:/ECE352/AHW2/segGdec.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\segGdec.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segGdec
+
+Top level modules:
+	segGdec
+
+} {} {}} C:/ECE352/AHW2/mult2x2_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/mult2x2_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult2x2_tb
+
+Top level modules:
+	mult2x2_tb
+
+} {} {}} C:/ECE352/AHW2/add3.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\add3.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add3
+
+Top level modules:
+	add3
+
+} {} {}} C:/ECE352/AHW2/RELU4.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\RELU4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU4
+
+Top level modules:
+	RELU4
+
+} {} {}} C:/ECE352/AHW2/mult3x2_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW2/mult3x2_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult3x2_tb
+
+Top level modules:
+	mult3x2_tb
+
+} {} {}} C:/ECE352/AHW2/bcd7seg_tb.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW2\bcd7seg_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bcd7seg_tb
+
+Top level modules:
+	bcd7seg_tb
+
+} {} {}}

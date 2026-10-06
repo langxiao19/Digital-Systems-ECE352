@@ -1,0 +1,227 @@
+C:/ECE352/AHW3/segBdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segBdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segBdec
+
+Top level modules:
+	segBdec
+
+} {} {}} C:/ECE352/AHW3/accum_reg.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/accum_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module accum_reg
+
+Top level modules:
+	accum_reg
+
+} {} {}} C:/ECE352/AHW3/state3_reg_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/state3_reg_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module state3_reg_tb
+
+Top level modules:
+	state3_reg_tb
+
+} {} {}} C:/ECE352/AHW3/segCdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segCdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segCdec
+
+Top level modules:
+	segCdec
+
+} {} {}} C:/ECE352/AHW3/mult2x2.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/mult2x2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult2x2
+
+Top level modules:
+	mult2x2
+
+} {} {}} C:/ECE352/AHW3/d_en_ff_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/d_en_ff_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_en_ff_tb
+
+Top level modules:
+	d_en_ff_tb
+
+} {} {}} C:/ECE352/AHW3/MAC_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/MAC_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC_tb
+
+Top level modules:
+	MAC_tb
+
+} {} {}} C:/ECE352/AHW3/segDdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segDdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segDdec
+
+Top level modules:
+	segDdec
+
+} {} {}} C:/ECE352/AHW3/d_ff.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/d_ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_ff
+
+Top level modules:
+	d_ff
+
+} {} {}} C:/ECE352/AHW3/Uweights.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/Uweights.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Uweights
+
+Top level modules:
+	Uweights
+
+} {} {}} C:/ECE352/AHW3/stg1flops_tb.sv {2 {vlog -work work -sv -stats=none C:/ECE352/AHW3/stg1flops_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stg1flops_tb
+** Warning: C:/ECE352/AHW3/stg1flops_tb.sv(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	stg1flops_tb
+
+} {} {}} C:/ECE352/AHW3/segEdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segEdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segEdec
+
+Top level modules:
+	segEdec
+
+} {} {}} C:/ECE352/AHW3/segFdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segFdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segFdec
+
+Top level modules:
+	segFdec
+
+} {} {}} C:/ECE352/AHW3/segGdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segGdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segGdec
+
+Top level modules:
+	segGdec
+
+} {} {}} C:/ECE352/AHW3/Wweights.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/Wweights.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Wweights
+
+Top level modules:
+	Wweights
+
+} {} {}} C:/ECE352/AHW3/AHW3.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/AHW3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module AHW3
+
+Top level modules:
+	AHW3
+
+} {} {}} C:/ECE352/AHW3/RELU4.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/RELU4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU4
+
+Top level modules:
+	RELU4
+
+} {} {}} C:/ECE352/AHW3/add4.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/add4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add4
+
+Top level modules:
+	add4
+
+} {} {}} C:/ECE352/AHW3/neural_dp_stg2_partial.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/neural_dp_stg2_partial.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module neural_dp_stg2_part
+
+Top level modules:
+	neural_dp_stg2_part
+
+} {} {}} C:/ECE352/AHW3/FA.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/FA.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} C:/ECE352/AHW3/bcd7seg.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/bcd7seg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bcd7seg
+
+Top level modules:
+	bcd7seg
+
+} {} {}} C:/ECE352/AHW3/mult3x2.sv {2 {vlog -work work -sv -stats=none C:/ECE352/AHW3/mult3x2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mult3x2
+** Warning: C:/ECE352/AHW3/mult3x2.sv(14): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	mult3x2
+
+} {} {}} C:/ECE352/AHW3/neural_dp_stg1.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/neural_dp_stg1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module neural_dp_stg1
+
+Top level modules:
+	neural_dp_stg1
+
+} {} {}} C:/ECE352/AHW3/MAC3_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/MAC3_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC3_tb
+
+Top level modules:
+	MAC3_tb
+
+} {} {}} C:/ECE352/AHW3/d_en_ff.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/d_en_ff.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_en_ff
+
+Top level modules:
+	d_en_ff
+
+} {} {}} C:/ECE352/AHW3/MAC.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/MAC.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC
+
+Top level modules:
+	MAC
+
+} {} {}} C:/ECE352/AHW3/state3_reg.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\AHW3\state3_reg.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module state3_reg
+
+Top level modules:
+	state3_reg
+
+} {} {}} C:/ECE352/AHW3/RELU3.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/RELU3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RELU3
+
+Top level modules:
+	RELU3
+
+} {} {}} C:/ECE352/AHW3/stg1flops.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/stg1flops.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module stg1flops
+
+Top level modules:
+	stg1flops
+
+} {} {}} C:/ECE352/AHW3/segAdec.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/segAdec.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module segAdec
+
+Top level modules:
+	segAdec
+
+} {} {}} C:/ECE352/AHW3/MAC3.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/MAC3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MAC3
+
+Top level modules:
+	MAC3
+
+} {} {}} C:/ECE352/AHW3/add3.sv {1 {vlog -work work -sv -stats=none C:/ECE352/AHW3/add3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add3
+
+Top level modules:
+	add3
+
+} {} {}}

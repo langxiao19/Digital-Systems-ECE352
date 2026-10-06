@@ -1,0 +1,191 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ECE352/AHW4
+vaccelModel
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1745254318
+!i10b 1
+!s100 <P>KfOC=Y07IFlzK`7`Le0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7L7KZ2l]CBI6[foSzJmSM0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/ECE352/WHW08
+Z5 w1745254166
+8C:/ECE352/WHW08/accelModel.sv
+FC:/ECE352/WHW08/accelModel.sv
+!i122 0
+L0 1 68
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1745254318.000000
+!s107 C:/ECE352/WHW08/accelModel.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW08/accelModel.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+naccel@model
+vactivitySM
+R0
+Z10 !s110 1745262303
+!i10b 1
+!s100 n;jXKMj>lEF3F9GzH_V>T1
+R2
+I6cVQ]G46nX;[1RbgDFcFQ3
+R3
+S1
+R4
+w1745262295
+8C:\ECE352\WHW08\activitySM.sv
+FC:\ECE352\WHW08\activitySM.sv
+!i122 6
+L0 7 90
+R6
+r1
+!s85 0
+31
+Z11 !s108 1745262303.000000
+!s107 C:\ECE352\WHW08\activitySM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\WHW08\activitySM.sv|
+!i113 1
+R8
+R9
+nactivity@s@m
+vd_ff
+R0
+R1
+!i10b 1
+!s100 90@HaoJb15CkW^jGFN?e?2
+R2
+I2VDh1n7WJ0lf9dAmBoQX]1
+R3
+S1
+R4
+Z12 w1745254167
+Z13 8C:/ECE352/WHW08/state4_reg.sv
+Z14 FC:/ECE352/WHW08/state4_reg.sv
+!i122 3
+L0 40 17
+R6
+r1
+!s85 0
+31
+R7
+Z15 !s107 C:/ECE352/WHW08/state4_reg.sv|
+Z16 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW08/state4_reg.sv|
+!i113 1
+R8
+R9
+vmotionDetect
+R0
+R10
+!i10b 1
+!s100 Y;Dih_iad:>SiE8efMfdf0
+R2
+I;=WZHOQB2M]A_n9MeL;Ec2
+R3
+S1
+R4
+w1745262294
+8C:\ECE352\WHW08\motionDetect.sv
+FC:\ECE352\WHW08\motionDetect.sv
+!i122 7
+L0 1 76
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:\ECE352\WHW08\motionDetect.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\WHW08\motionDetect.sv|
+!i113 1
+R8
+R9
+nmotion@detect
+vmotionDetect_tb
+R0
+R1
+!i10b 1
+!s100 bo4noT[o13Mj6?UOQZ1nT3
+R2
+I??A07d>`WOISQkNH81Aj]1
+R3
+S1
+R4
+R5
+8C:/ECE352/WHW08/motionDetect_tb.sv
+FC:/ECE352/WHW08/motionDetect_tb.sv
+!i122 1
+L0 1 167
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/ECE352/WHW08/motionDetect_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW08/motionDetect_tb.sv|
+!i113 1
+R8
+R9
+nmotion@detect_tb
+vsmplCnt
+R0
+R1
+!i10b 1
+!s100 OE=Q6IW]H:U@5XIzVmE>I3
+R2
+INBP<R4bzOVOOn4I7RYQSE0
+R3
+S1
+R4
+R5
+8C:/ECE352/WHW08/smplCnt.sv
+FC:/ECE352/WHW08/smplCnt.sv
+!i122 2
+L0 1 14
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/ECE352/WHW08/smplCnt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW08/smplCnt.sv|
+!i113 1
+R8
+R9
+nsmpl@cnt
+vstate4_reg
+R0
+R1
+!i10b 1
+!s100 OJEYekmeCcEaH@i@UUCg>3
+R2
+IWVHgJU`<CI6oDYZXMzDSi0
+R3
+S1
+R4
+R12
+R13
+R14
+!i122 3
+L0 8 29
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R8
+R9

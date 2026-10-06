@@ -1,0 +1,193 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAHW1
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1739213253
+!i10b 1
+!s100 BnYOLzd66:JII?Iz?1`E72
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IGP6<Wd`?G81bEb?DD5f]d0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/ECE352
+w1739213176
+8C:\ECE352\AHW1\AHW1.sv
+FC:\ECE352\AHW1\AHW1.sv
+!i122 49
+L0 1 21
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1739213252.000000
+!s107 C:\ECE352\AHW1\AHW1.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\AHW1\AHW1.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+n@a@h@w1
+vFA
+R0
+Z7 !s110 1739213166
+!i10b 1
+!s100 NZBgOZIE[LJ_?4CnWJ84I1
+R1
+IU`Y?T54=S=QR=EAIfmFg]3
+R2
+S1
+R3
+w1738851594
+8C:/ECE352/AHW1/FA.sv
+FC:/ECE352/AHW1/FA.sv
+!i122 43
+L0 5 23
+R4
+r1
+!s85 0
+31
+Z8 !s108 1739213166.000000
+!s107 C:/ECE352/AHW1/FA.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/AHW1/FA.sv|
+!i113 1
+R5
+R6
+n@f@a
+vFA_tb
+R0
+R7
+!i10b 1
+!s100 fEDkL54h02]R_nN;a^?hf0
+R1
+I8V`oMQ;7UGk^6Scf1;oLG0
+R2
+S1
+R3
+Z9 w1738843910
+8C:\ECE352\AHW1\FA_tb.sv
+FC:\ECE352\AHW1\FA_tb.sv
+!i122 44
+L0 1 38
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:\ECE352\AHW1\FA_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\AHW1\FA_tb.sv|
+!i113 1
+R5
+R6
+n@f@a_tb
+vRCA32
+R0
+R7
+!i10b 1
+!s100 9Dn]5c6D:62IQ_zS80Q7f0
+R1
+I:i?X2czN^:H7@WFhK`3RX1
+R2
+S1
+R3
+w1738853112
+8C:\ECE352\AHW1\RCA32.sv
+FC:\ECE352\AHW1\RCA32.sv
+!i122 47
+L0 5 27
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:\ECE352\AHW1\RCA32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\AHW1\RCA32.sv|
+!i113 1
+R5
+R6
+n@r@c@a32
+vRCA32_tb
+R0
+!s110 1739213167
+!i10b 1
+!s100 NIcC^1oVFUC3Gz<e?n7;L1
+R1
+IK_]N=RFSZzG_EBfXV8V9A0
+R2
+S1
+R3
+R9
+8C:/ECE352/AHW1/RCA32_tb.sv
+FC:/ECE352/AHW1/RCA32_tb.sv
+!i122 48
+L0 1 64
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/ECE352/AHW1/RCA32_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/AHW1/RCA32_tb.sv|
+!i113 1
+R5
+R6
+n@r@c@a32_tb
+vRCA4
+R0
+R7
+!i10b 1
+!s100 ao0gHQ1G^98`=?kFl;`H80
+R1
+I0nK6l4:oAdRRN4_9Xo51g2
+R2
+S1
+R3
+w1738851663
+8C:/ECE352/AHW1/RCA4.sv
+FC:/ECE352/AHW1/RCA4.sv
+!i122 45
+L0 5 21
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/ECE352/AHW1/RCA4.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/AHW1/RCA4.sv|
+!i113 1
+R5
+R6
+n@r@c@a4
+vRCA4_tb
+R0
+R7
+!i10b 1
+!s100 WUII67c58VncEClaN0Chf3
+R1
+I[CV9R5OY4;G>=^U01?dJo1
+R2
+S1
+R3
+R9
+8C:/ECE352/AHW1/RCA4_tb.sv
+FC:/ECE352/AHW1/RCA4_tb.sv
+!i122 46
+L0 1 33
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/ECE352/AHW1/RCA4_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/AHW1/RCA4_tb.sv|
+!i113 1
+R5
+R6
+n@r@c@a4_tb

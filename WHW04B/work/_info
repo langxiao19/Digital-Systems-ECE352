@@ -1,0 +1,164 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vfunc_3LUTs
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1740974441
+!i10b 1
+!s100 Xl_cfDID;WG:]LgZV31:j0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I=d9aKRS<ZCAf9o3U^2mLQ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/ECE352/WHW04B
+w1740974420
+8C:\ECE352\WHW04B\func_3LUTs.sv
+FC:\ECE352\WHW04B\func_3LUTs.sv
+!i122 33
+L0 1 34
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1740974440.000000
+!s107 C:\ECE352\WHW04B\func_3LUTs.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\WHW04B\func_3LUTs.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+nfunc_3@l@u@ts
+vfunc_3LUTs_tb
+R0
+Z7 !s110 1740972092
+!i10b 1
+!s100 fam`EmcW[o=<8_]Blznc63
+R1
+I?]2NI1_8APOaaHme>WzMF1
+R2
+S1
+R3
+w1740939083
+8C:/ECE352/WHW04B/func_3LUTs_tb.sv
+FC:/ECE352/WHW04B/func_3LUTs_tb.sv
+!i122 29
+Z8 L0 1 22
+R4
+r1
+!s85 0
+31
+Z9 !s108 1740972092.000000
+!s107 C:/ECE352/WHW04B/func_3LUTs_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW04B/func_3LUTs_tb.sv|
+!i113 1
+R5
+R6
+nfunc_3@l@u@ts_tb
+vfunc_mux4
+R0
+R7
+!i10b 1
+!s100 ?1dQK;Q1IK[a;2lnP4=>B3
+R1
+IZ>JMU9A@VX8iPFze38EFT0
+R2
+S1
+R3
+Z10 w1740938668
+Z11 8C:\ECE352\WHW04B\func_mux4.sv
+Z12 FC:\ECE352\WHW04B\func_mux4.sv
+!i122 26
+L0 1 31
+R4
+r1
+!s85 0
+31
+Z13 !s108 1740972091.000000
+Z14 !s107 C:\ECE352\WHW04B\func_mux4.sv|
+Z15 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\ECE352\WHW04B\func_mux4.sv|
+!i113 1
+R5
+R6
+vfunc_mux4_tb
+R0
+R7
+!i10b 1
+!s100 LX:O_fI6mj]4?fcc2X38J2
+R1
+IcgKTXg8]gW=`MiZ[o6Q@Y3
+R2
+S1
+R3
+w1740936572
+8C:/ECE352/WHW04B/func_mux4_tb.sv
+FC:/ECE352/WHW04B/func_mux4_tb.sv
+!i122 27
+R8
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/ECE352/WHW04B/func_mux4_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW04B/func_mux4_tb.sv|
+!i113 1
+R5
+R6
+vLUT3
+R0
+R7
+!i10b 1
+!s100 0m]C@iJOX6hU8N6W0b;fz2
+R1
+IMizTK_ll:0iJb9PUU`bhb1
+R2
+S1
+R3
+w1740942596
+8C:/ECE352/WHW04B/LUT3.sv
+FC:/ECE352/WHW04B/LUT3.sv
+!i122 30
+L0 1 28
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/ECE352/WHW04B/LUT3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/ECE352/WHW04B/LUT3.sv|
+!i113 1
+R5
+R6
+n@l@u@t3
+vmux4_2_1
+R0
+R7
+!i10b 1
+!s100 _`kDXF5^Y2DIReAehHOQb3
+R1
+I7bPADZ8zH^L[EV<<]l0zO3
+R2
+S1
+R3
+R10
+R11
+R12
+!i122 26
+L0 36 13
+R4
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R5
+R6

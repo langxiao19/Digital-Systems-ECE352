@@ -1,0 +1,59 @@
+/*module segGdec
+(
+	input [3:0] D,
+	output segG
+);
+
+  //////////////////////////////////////////
+  // Declare any needed internal signals //
+  ////////////////////////////////////////
+  logic D3_not, D2_not, D1_not;
+  logic B1, B2;
+  
+  //////////////////////////////////////////////////////
+  // Write STRUCTURAL verilog to implement segment G //
+  ////////////////////////////////////////////////////
+  not not3 (D3_not, D[3]);  // D3'
+  not not2 (D2_not, D[2]);  // D2'
+  not not1 (D1_not, D[1]);  // D1'
+  
+
+
+  and and1(B1, D3_not, D2_not, D1_not);  
+  and and2(B2, D3_not, D[2], D[1], D[0]); 
+   
+
+       // Combine terms
+  or BlockFinal(SegG, B1, B2); 
+
+    // Active-low output (flip logic)
+    
+  
+endmodule*/
+module segGdec (
+    input [3:0] D,  // 4-bit input
+    output segG     // Segment G output (active-low)
+);
+
+  //////////////////////////////////////////
+  // Declare any needed internal signals //
+  ////////////////////////////////////////
+    logic D3not, D2not, D1not;
+    logic row0, row7;
+
+  //////////////////////////////////////////////////////
+  // Write STRUCTURAL verilog to implement segment G //
+  ////////////////////////////////////////////////////
+    not not3 (D3not, D[3]);  // D3'
+    not not2 (D2not, D[2]);  // D2'
+    not not1 (D1not, D[1]);  // D1'
+    //not not0 (D0not, D[0]);  // D0'
+
+    and and1 (row0, D3not, D2not, D1not);  // D3'D2'D1' (0)
+   // and and2 (row1, D3not, D2not, D1not, D[0]);  
+    and and3 (row7, D3not, D[2], D[1], D[0]);        // D3'D2D1D0 (7)
+
+   
+    or or1 (segG, row0, row7);
+endmodule
+

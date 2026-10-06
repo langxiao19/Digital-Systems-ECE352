@@ -1,0 +1,30 @@
+C:/ECE352/WHW08/state4_reg.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW08/state4_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module state4_reg
+-- Compiling module d_ff
+
+Top level modules:
+	state4_reg
+
+} {} {}} C:/ECE352/WHW08/motionDetect_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW08/motionDetect_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module motionDetect_tb
+
+Top level modules:
+	motionDetect_tb
+
+} {} {}} C:/ECE352/WHW08/accelModel.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW08/accelModel.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module accelModel
+
+Top level modules:
+	accelModel
+
+} {} {}} C:/ECE352/WHW08/smplCnt.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW08/smplCnt.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module smplCnt
+
+Top level modules:
+	smplCnt
+
+} {} {}}

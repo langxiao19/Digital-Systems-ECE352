@@ -1,0 +1,135 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY "AHW5"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:54:23 AUGUST 06,2019"
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 780
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+
+#============================================================
+# CLOCK
+#============================================================
+set_location_assignment PIN_Y2 -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to clk
+#set_location_assignment PIN_AG14 -to CLOCK2_50
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK2_50
+#set_location_assignment PIN_AG15 -to CLOCK3_50
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK3_50
+
+#============================================================
+# LED
+#============================================================
+set_location_assignment PIN_E21 -to LEDG[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[0]
+set_location_assignment PIN_E22 -to LEDG[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[1]
+set_location_assignment PIN_E25 -to LEDG[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[2]
+set_location_assignment PIN_E24 -to LEDG[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[3]
+set_location_assignment PIN_H21 -to LEDG4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[4]
+set_location_assignment PIN_G20 -to LEDG[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[5]
+set_location_assignment PIN_G22 -to LEDG[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[6]
+set_location_assignment PIN_G21 -to LEDG[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[7]
+
+#============================================================
+# KEY
+#============================================================
+set_location_assignment PIN_M23 -to KEY0
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY0
+#set_location_assignment PIN_M21 -to KEY[1]
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
+#set_location_assignment PIN_N21 -to KEY[2]
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2]
+#set_location_assignment PIN_R24 -to KEY[3]
+#set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3]
+
+#============================================================
+# GPIO, GPIO connect to GPIO Default
+#============================================================
+set_location_assignment PIN_AG22 -to GND1
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND1
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to GND1
+
+set_location_assignment PIN_AH22 -to GND2
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND2
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to GND2
+
+set_location_assignment PIN_AE20 -to RX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to RX
+
+#============================================================
+# SEG7
+#============================================================
+set_location_assignment PIN_M24 -to HEX1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[0]
+set_location_assignment PIN_Y22 -to HEX1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[1]
+set_location_assignment PIN_W21 -to HEX1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[2]
+set_location_assignment PIN_W22 -to HEX1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[3]
+set_location_assignment PIN_W25 -to HEX1[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[4]
+set_location_assignment PIN_U23 -to HEX1[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[5]
+set_location_assignment PIN_U24 -to HEX1[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[6]
+
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+
+
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_global_assignment -name SYSTEMVERILOG_FILE AHW5.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialRX.sv
+set_global_assignment -name SYSTEMVERILOG_FILE SerialShftReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE state3_reg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BitCnt.sv
+set_global_assignment -name SYSTEMVERILOG_FILE BaudCnt.sv
+set_global_assignment -name SYSTEMVERILOG_FILE add3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE add4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RELU4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE FA.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mult2x2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mult3x2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segGdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segFdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segEdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segDdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segCdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segBdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segAdec.sv
+set_global_assignment -name SYSTEMVERILOG_FILE bcd7seg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Wweights.sv
+set_global_assignment -name SYSTEMVERILOG_FILE MAC3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RELU3.sv
+set_global_assignment -name SYSTEMVERILOG_FILE stg1flops.sv
+set_global_assignment -name SYSTEMVERILOG_FILE d_ff.sv
+set_global_assignment -name SYSTEMVERILOG_FILE d_en_ff.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Uweights.sv
+set_global_assignment -name SYSTEMVERILOG_FILE MAC.sv
+set_global_assignment -name SYSTEMVERILOG_FILE neural_dp_stg1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE neural_dp_stg2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE neural_datapath.sv
+set_global_assignment -name SYSTEMVERILOG_FILE accum_reg.sv
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

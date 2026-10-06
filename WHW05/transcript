@@ -1,0 +1,70 @@
+# Compile of ALU.sv was successful.
+# Compile of ALU_cell.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ALU_cell.sv failed with 1 errors.
+# Compile of ALU_cell.sv failed with 1 errors.
+# Compile of ALU_cell.sv was successful.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 12:45:10 on Mar 10,2025
+# Loading sv_std.std
+# Loading work.ALU_tb
+# Loading work.ALU
+# Loading work.ALU_cell
+# Loading work.FA
+add wave -position insertpoint sim:/ALU_tb/iDUT/*
+run -all
+# Performing mode 00 testing
+# ERR: 0xAA/2 + 0x56 should result in 0xAB.  Your answer was 2b
+# Good...you passed mode 01 moving to mode 10 next
+# ** Note: $stop    : C:/ECE352/WHW05/ALU_tb.sv(96)
+#    Time: 8 ps  Iteration: 0  Instance: /ALU_tb
+# Break in Module ALU_tb at C:/ECE352/WHW05/ALU_tb.sv line 96
+# Load canceled
+# Compile of ALU_cell.sv was successful.
+vsim -gui work.ALU_tb
+# End time: 14:10:30 on Mar 10,2025, Elapsed time: 1:25:20
+# Errors: 0, Warnings: 6
+# vsim -gui work.ALU_tb 
+# Start time: 14:10:30 on Mar 10,2025
+# Loading sv_std.std
+# Loading work.ALU_tb
+# Loading work.ALU
+# Loading work.ALU_cell
+# Loading work.FA
+add wave -position insertpoint sim:/ALU_tb/iDUT/*
+# Compile of ALU.sv was successful.
+# Compile of ALU_cell.sv was successful.
+# Compile of ALU_tb.sv was successful.
+# 3 compiles, 0 failed with no errors.
+run -all
+# Performing mode 00 testing
+# ERR: 0xAA/2 + 0x56 should result in 0xAB.  Your answer was 2b
+# Good...you passed mode 01 moving to mode 10 next
+# ** Note: $stop    : C:/ECE352/WHW05/ALU_tb.sv(96)
+#    Time: 8 ps  Iteration: 0  Instance: /ALU_tb
+# Break in Module ALU_tb at C:/ECE352/WHW05/ALU_tb.sv line 96
+# Compile of ALU.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ALU_tb
+# Loading work.ALU
+# Loading work.ALU_cell
+# Loading work.FA
+add wave -position insertpoint sim:/ALU_tb/iDUT/*
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Performing mode 00 testing
+# Good...you passed mode 00 moving to mode 01 next
+# Good...you passed mode 01 moving to mode 10 next
+# Good...you passed mode 10 moving to mode 11 next
+# YAHOO!! test passed
+# ** Note: $stop    : C:/ECE352/WHW05/ALU_tb.sv(96)
+#    Time: 8 ps  Iteration: 0  Instance: /ALU_tb
+# Break in Module ALU_tb at C:/ECE352/WHW05/ALU_tb.sv line 96
+run -all
+quit -sim
+# End time: 15:38:31 on Mar 10,2025, Elapsed time: 1:28:01
+# Errors: 0, Warnings: 1

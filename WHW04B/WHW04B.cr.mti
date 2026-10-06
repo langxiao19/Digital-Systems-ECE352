@@ -1,0 +1,37 @@
+C:/ECE352/WHW04B/LUT3.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW04B/LUT3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT3
+
+Top level modules:
+	LUT3
+
+} {} {}} C:/ECE352/WHW04B/func_mux4.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\WHW04B\func_mux4.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module func_mux4
+-- Compiling module mux4_2_1
+
+Top level modules:
+	func_mux4
+
+} {} {}} C:/ECE352/WHW04B/func_mux4_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW04B/func_mux4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module func_mux4_tb
+
+Top level modules:
+	func_mux4_tb
+
+} {} {}} C:/ECE352/WHW04B/func_3LUTs.sv {1 {vlog -work work -sv -stats=none {C:\ECE352\WHW04B\func_3LUTs.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module func_3LUTs
+
+Top level modules:
+	func_3LUTs
+
+} {} {}} C:/ECE352/WHW04B/func_3LUTs_tb.sv {1 {vlog -work work -sv -stats=none C:/ECE352/WHW04B/func_3LUTs_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module func_3LUTs_tb
+
+Top level modules:
+	func_3LUTs_tb
+
+} {} {}}
